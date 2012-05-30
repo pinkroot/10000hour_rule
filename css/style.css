@@ -19,19 +19,20 @@
 
 #left{
 	float: left;
-	width: 180px;
+	width: 10%;
 }
 
 #center{
 	padding-top: 20px;
 	margin: auto;
-	width: auto;
+	text-align: center;
+	width: 80%;
 	float: left;
 }
 
 #right{
 	float: right;
-	width: 180px;
+	width: 10%;
 }
 
 .ninja_onebutton{
