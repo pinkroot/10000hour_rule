@@ -17,15 +17,26 @@
 	height: 100%;
 }
 
+#left{
+	float: left;
+	width: 180px;
+}
+
 #center{
 	padding-top: 20px;
 	margin: auto;
-	width: 1000px;
+	width: auto;
+	float: left;
+}
+
+#right{
+	float: right;
+	width: 180px;
 }
 
 .ninja_onebutton{
 	margin: auto;
-	width: 250px;
+	width: 280px;
 }
 
 #explain{
