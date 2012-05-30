@@ -11,7 +11,7 @@ function submitFunc() {
   
   var str = "私は" + activity + "を毎日" + time + "時間やることで、" + day + "日後(" + year + "年後)にマスターします。";
   
-  $("#str").html(str + "<a href=\"https://twitter.com/intent/tweet?text=" + str + "&url=http://shun-ichiro.com/10000\" target=\"_blank\">" + "<img src=\"./img/tweet.gif\" alt=\"ツイートする\">" + "</a>");
+  $("#str").html(str + "<a href=\"https://twitter.com/intent/tweet?text=" + str + " http://shun-ichiro.com/10000 @pinkroot\" target=\"_blank\">" + "<img src=\"./img/tweet.gif\" alt=\"ツイートする\">" + "</a>");
 }
 
 
